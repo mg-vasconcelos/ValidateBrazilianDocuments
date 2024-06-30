@@ -17,5 +17,5 @@ public @interface CNPJ {
 
     Class<? extends Payload>[] payload() default {};
 
-    boolean caseInsensitive() default false;
+    boolean caseSensitive() default true;
 }

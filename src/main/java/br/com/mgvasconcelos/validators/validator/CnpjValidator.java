@@ -32,7 +32,7 @@ public class CnpjValidator implements ConstraintValidator<CNPJ, String> {
 
     private String sanitizationString(String value) {
         value = value.replaceAll("[^a-zA-Z0-9]", "");
-        if (constraintAnnotation.caseInsensitive()) {
+        if (!constraintAnnotation.caseSensitive()) {
             value = value.toUpperCase();
         }
 
