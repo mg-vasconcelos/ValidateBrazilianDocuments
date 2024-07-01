@@ -105,6 +105,6 @@ public class ValidatorExample {
 Para verificar se as anotações estão funcionando corretamente, execute os testes unitários fornecidos no projeto.  
 To verify if the annotations are working correctly, run the provided unit tests in the project.
 
-License / Licença
+License / Licença   
 This project is licensed under the MIT License. See the [LICENSE](https://www.mit.edu/~amini/LICENSE.md) for details.   
 Este projeto está licenciado sob a Licença MIT. Consulte a [LICENSE](https://www.mit.edu/~amini/LICENSE.md) para mais detalhes.
