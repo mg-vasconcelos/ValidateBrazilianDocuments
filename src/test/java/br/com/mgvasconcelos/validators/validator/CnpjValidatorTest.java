@@ -15,7 +15,7 @@ public class CnpjValidatorTest {
         ConstraintValidatorContext context = mock(ConstraintValidatorContext.class);
 
         CNPJ cnpj = mock(CNPJ.class);
-        when(cnpj.caseInsensitive()).thenReturn(true);
+        when(cnpj.caseSensitive()).thenReturn(true);
 
         validator.initialize(cnpj);
 
@@ -28,7 +28,7 @@ public class CnpjValidatorTest {
         ConstraintValidatorContext context = mock(ConstraintValidatorContext.class);
 
         CNPJ cnpj = mock(CNPJ.class);
-        when(cnpj.caseInsensitive()).thenReturn(true);
+        when(cnpj.caseSensitive()).thenReturn(true);
 
         validator.initialize(cnpj);
 
@@ -43,7 +43,7 @@ public class CnpjValidatorTest {
         ConstraintValidatorContext context = mock(ConstraintValidatorContext.class);
 
         CNPJ cnpj = mock(CNPJ.class);
-        when(cnpj.caseInsensitive()).thenReturn(true);
+        when(cnpj.caseSensitive()).thenReturn(true);
 
         validator.initialize(cnpj);
 
@@ -56,7 +56,7 @@ public class CnpjValidatorTest {
         ConstraintValidatorContext context = mock(ConstraintValidatorContext.class);
 
         CNPJ cnpj = mock(CNPJ.class);
-        when(cnpj.caseInsensitive()).thenReturn(true);
+        when(cnpj.caseSensitive()).thenReturn(false);
 
         validator.initialize(cnpj);
 
@@ -72,7 +72,7 @@ public class CnpjValidatorTest {
         ConstraintValidatorContext context = mock(ConstraintValidatorContext.class);
 
         CNPJ cnpj = mock(CNPJ.class);
-        when(cnpj.caseInsensitive()).thenReturn(false);
+        when(cnpj.caseSensitive()).thenReturn(true);
 
         validator.initialize(cnpj);
 
@@ -85,7 +85,7 @@ public class CnpjValidatorTest {
         ConstraintValidatorContext context = mock(ConstraintValidatorContext.class);
 
         CNPJ cnpj = mock(CNPJ.class);
-        when(cnpj.caseInsensitive()).thenReturn(true);
+        when(cnpj.caseSensitive()).thenReturn(true);
 
         validator.initialize(cnpj);
 
@@ -98,7 +98,7 @@ public class CnpjValidatorTest {
         ConstraintValidatorContext context = mock(ConstraintValidatorContext.class);
 
         CNPJ cnpj = mock(CNPJ.class);
-        when(cnpj.caseInsensitive()).thenReturn(true);
+        when(cnpj.caseSensitive()).thenReturn(true);
 
         validator.initialize(cnpj);
 
@@ -111,7 +111,7 @@ public class CnpjValidatorTest {
         ConstraintValidatorContext context = mock(ConstraintValidatorContext.class);
 
         CNPJ cnpj = mock(CNPJ.class);
-        when(cnpj.caseInsensitive()).thenReturn(true);
+        when(cnpj.caseSensitive()).thenReturn(true);
 
         validator.initialize(cnpj);
 
@@ -124,7 +124,7 @@ public class CnpjValidatorTest {
         ConstraintValidatorContext context = mock(ConstraintValidatorContext.class);
 
         CNPJ cnpj = mock(CNPJ.class);
-        when(cnpj.caseInsensitive()).thenReturn(true);
+        when(cnpj.caseSensitive()).thenReturn(true);
 
         validator.initialize(cnpj);
 
@@ -137,7 +137,7 @@ public class CnpjValidatorTest {
         ConstraintValidatorContext context = mock(ConstraintValidatorContext.class);
 
         CNPJ cnpj = mock(CNPJ.class);
-        when(cnpj.caseInsensitive()).thenReturn(true);
+        when(cnpj.caseSensitive()).thenReturn(true);
 
         validator.initialize(cnpj);
 
